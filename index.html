@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Česká neutronová asociace | CNA</title>
+    <style>
+      :root {
+        --blue-bg: #e6f2ff;
+        --box-bg: #ffffff;
+        --primary-font: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --heading-color: #003366;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--blue-bg);
+        font-family: var(--primary-font);
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        color: #333;
+      }
+
+      .card {
+        background: var(--box-bg);
+        padding: 2rem 3rem;
+        border-radius: 1.5rem;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        max-width: 420px;
+      }
+
+      img.logo {
+        width: 160px;
+        height: 160px;
+        object-fit: contain;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        margin: 0.5rem 0 0;
+        font-size: 1.8rem;
+        color: var(--heading-color);
+      }
+
+      h2 {
+        margin: 0.25rem 0 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--heading-color);
+      }
+
+      p {
+        margin: 0.4rem 0;
+        font-size: 1rem;
+      }
+
+      a.download {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.6rem 1rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        background-color: var(--heading-color);
+        color: #fff;
+        font-weight: 600;
+        transition: background-color 0.25s ease-in-out;
+      }
+
+      a.download:hover {
+        background-color: #022f66;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img src="logo.png" alt="Logo CNA" class="logo" />
+      <h1>Česká neutronová asociace</h1>
+      <h2>Czech Neutron Association</h2>
+
+      <p>Webové stránky asociace jsou v&nbsp;přípravě.</p>
+      <p>Our webpage is under construction.</p>
+
+      <a href="CNA_stanovy_2025.pdf" class="download" download>📄 Stanovy spolku ke stažení</a>
+    </main>
+  </body>
+</html>
